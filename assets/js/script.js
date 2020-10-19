@@ -12,7 +12,7 @@ $(function(){
     $.ajax(settings).done(function (response) {
       console.log(response);
       $('#pokeName').text(response.name)
-      $('img').attr('src', response.sprites['front_shiny'])
+      $('#pokeSprite').attr('src', response.sprites['front_shiny'])
       $('#pokeWeight').text(`Peso: ${response.weight} (Kg)`)
       createGraph(response)
     });

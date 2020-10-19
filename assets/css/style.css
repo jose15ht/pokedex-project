@@ -2,4 +2,12 @@ body {
    background-image: url('../img/pokewallpaper.jpeg');
    background-size: cover;
    background-repeat: no-repeat;
+   font-family: 'Orbitron', sans-serif;
+   font-weight: 500;
+   font-size: medium;
+   color: #effd0d;
+}
+
+button {
+   color: #effd0d;
 }
