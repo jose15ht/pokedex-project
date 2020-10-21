@@ -13,7 +13,7 @@ $(function(){
       console.log(response);
       $('#pokeName').text(response.name)
       $('#pokeSprite').attr('src', response.sprites['front_shiny'])
-      $('#pokeWeight').text(`Peso: ${response.weight} (Kg)`)
+      $('#pokeWeight').text(`Peso: ${response.weight} (Lb)`)
       createGraph(response)
     });
   })
