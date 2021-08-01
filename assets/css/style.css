@@ -9,5 +9,9 @@ body {
 }
 
 button {
+   background-color: #343a40 ;
    color: #effd0d;
+   border: none;
+   height: auto;
+   font-size: x-large;
 }

@@ -21,12 +21,12 @@
              <p class=" text-center bg-dark rounded-pill">Ingresa el número de pokemón</p>
            </div>
            <div class="col-12 col-md-6">
-             <input type="number" class="form-control" placeholder="Número entre 1 y 850" id="pokedex">
+             <input type="number" min="1" max="898" class="form-control" placeholder="Número entre 1 y 898" id="pokedex">
            </div>
          </div>
          <div class="row my-3 py-3">
             <div class="container text-center">
-               <button type="submit" class="btn btn-primary btn-lg">¡DESPLIEGA!</button>
+               <button type="submit" >¡DESPLIEGA!</button>
             </div>
          </div>
        </form>
@@ -41,7 +41,7 @@
             </div>
          
          <div class="col-12 col-md-6" id="graph">
-            <div id="chartContainer" style=" width: 100%;"></div>
+            <div id="chartContainer" class="chartContainer" style="width: 100%;"></div>
          </div>
       </div>
    </div>
